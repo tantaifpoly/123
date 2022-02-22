@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.tim{
+    padding-top: 10px;
+
+}
+.hia{
+    float: left;
+    list-style: none;
+    padding-top: 20px;
+}
+.hhh{
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-top: 12px;
+    text-align: center;   
+    color: black;
+}
+.hmenu{
+    list-style: none;
+    height: 50px;
+    width: 700px;
+    float: left;
+}
+.hmenu>li{
+    display: inline-block;
+    position: relative;
+    line-height: 50px;
+    margin: 0 20px;
+}
+.hmenu>li>a:hover{
+    color: red;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+.hmenu>li:hover .smenu{
+    /* background-color: bisque; */
+    display: block;
+}
+.hmenu{
+    list-style: none;
+    height: 50px;
+    width: 700px;
+    float: left;
+}
+.hmenu>li{
+    display: inline-block;
+    position: relative;
+    line-height: 50px;
+    margin: 0 20px;
+}
+.hmenu>li>a:hover{
+    color: red;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+.hmenu>li>a{
+    color: black;
+}
+.hmenu>li:hover .smenu{
+    display: block;
+}
+.smenu{
+    list-style: none;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    width: 180px;
+    border-radius: 5px;
+    background-color: rgb(141, 151, 155);
+    display: none;
+}
+.smenu li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    border-top: 1px solid grey;
+    text-indent: 10px;
+    line-height: 40px;
+    border-radius: 5px;
+    z-index: 1;
+
+}
+ .smenu li:hover{
+    background-color:  rgb(145, 168, 199);
+}
+.smenu li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    border-top: 1px solid grey;
+    text-indent: 10px;
+    line-height: 40px;
+    border-radius: 5px;
+    z-index: 1;
+
+}
+ .smenu li:hover{
+    background-color: rgb(145, 168, 199);
+}
+.khung{
+    width: 1141px;
+    height: 50px;
+    margin: 0 auto;
+    position: fixed;
+    background-color: rgb(187, 200, 206);
+    border-radius: 10px;   
+}
+.noi:hover{
+    color: red;
+    font-size: 25px;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+.nen{
+    width: 100%;
+    height: 400px;
+}
+.do{
+    width: 10%;
+    height: 500px;
+    float: left;
+}
+.do1{
+    width: 10%;
+    height: 500px;
+    float: left;
+}
+.anh{
+    width: 40%;
+    height: 500px;
+    float: left;
+}
+.chu{
+    width: 40%;
+    height: 500px;
+    float: left;
+}
+.for{
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top: 30px;
+    color: black;
+}
+.f{
+    padding-left: 20px;
+}
+.cachra_1{
+    width: 50%;
+    height: 250px;
+    float: left;
+    background-color: rgb(187, 200, 206);
+    text-align: center;
+}
+.cachra_2{
+    width:50%;
+    height: 250px;
+    float: left;
+    background-color:rgb(187, 200, 206) ;
+    text-align: center;
+}
+.bt{
+    padding-top: 80px;
+    padding-left: 30px;
+    width: 80%;
+    height: 350px;
+    border-radius: 30px;
+}
+.fchu{
+    padding-left: 20px;
+    padding-top: 70px;
+    font-size: 25px;
+}
+.chunho{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.trongnen{
+    width: 100%;
+    height: 400px;
+}
+.ra{
+    width: 1100px;
+    height: 50px;
+}
+.khong:hover{
+    color: red;
+}
+.kkk{
+    text-decoration: none;
+    color: black;
+}

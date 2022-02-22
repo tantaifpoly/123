@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:"Roboto",sans-serif ;
+}
+.container{
+    width: 90.3%;
+    text-align: center;
+}
+nav{
+    width: 1100px;
+    margin:0 auto ;   
+    color: white;
+    height: 60px;
+}
+.dau{
+    font-size: 20px;
+    height: 20px;
+    color: aliceblue;
+    text-align: right;
+    padding-right: 100px;  
+}
+.sty:hover{
+    color: red;
+}
+li:hover{
+    color: red;
+}
+.hinh{
+    width: 1100px;
+}
+.hinh img{
+    width: 96%;
+    height: auto;
+}
+.khung{
+    width: 1100px;
+    height: 50px;
+    margin: 0 auto;
+    position: fixed;
+    background-color: rgb(187, 200, 206);
+    border-radius: 10px;
+    
+}
+.boxcenter{
+    width: 33.33%;
+    height: 1000px;
+    float:left;
+}
+.boxleft{
+    width: 33.33%;
+    height: 1000px;
+    float:left;
+}
+.boxright{
+    width: 33.33%;
+    height: 1000px;
+    float:left;
+}
+.duoi{
+    width: 1100px;
+    height: 50px;
+    margin: 0 auto;
+}
+.raxa{
+    width: 100%;
+    height: 200px;
+}
+.kt img{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.ngang{
+    width: 33.3%;
+    height: 500px;
+    float: left;
+}
+.ngangcen{
+    width: 33.3%;
+    height: 500px;
+    float: left;
+}
+.ngangrig{
+    width: 33.3%;
+    height: 500px;
+    float: left;
+}
+.noi a{
+    float: right;
+    font-size: 15px;
+}
+.cachra{
+    width: 100%;
+    height: 100px;
+}
+.cachra_1{
+    width: 50%;
+    height: 250px;
+    float: left;
+    padding-left: 20px;
+    background-color: rgb(225, 233, 236);
+    text-align: center;
+}
+.cachra_2{
+    width:50%;
+    height: 250px;
+    padding-left: 20px;
+    float: left;
+    background-color: rgb(225, 233, 236);
+    text-align: center;
+}
+.chia_1{
+    width: 33.3%;
+    height: 2460px;
+    float: left;
+    text-align: center;
+}
+.chia_2{
+    width: 33.3%;
+    height: 2460px;
+    float: left;
+    text-align: center;
+}
+.chia_3{
+    width: 33.3%;
+    height: 2460px;
+    float: left;
+    text-align: center;
+}
+.gach:hover{
+    text-decoration: none;
+    color: red;
+}
+.anhdai{
+    width: 240px;
+    height: 300px;
+    border-radius: 25px 25px;
+}
+.nhotrong1{
+    height: 400px;
+    clear: both;
+}
+.nhotrong2{
+    height: 400px;
+    clear: both;
+}
+.nhotrong3{
+    height: 400px;
+    clear: both;
+}
+.anh{
+    padding-top: 60px;
+}
+.bo{
+    text-decoration: none;
+}
+.giua{
+    color: black;
+    font-size: 22px;
+    padding-top: 17px;
+    padding-left: 80px;
+    float: left;
+    list-style: none; 
+    text-decoration: none;
+    text-align: center;
+    padding: 0 auto;
+}
+.acuoi{
+    width: 300px;
+    height: 350px;
+    padding-left: 89px;
+    padding-top: 100px;
+    padding-bottom: 30px;   
+}
+.for{
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top: 30px;
+    color: black;
+}
+
+.khung{
+    width: 1100px;
+    height: 50px;
+    margin: 0 auto;
+    position: fixed;
+    background-color: rgb(187, 200, 206);
+    border-radius: 10px;   
+}
+.to:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.hmenu{
+    list-style: none;
+    height: 50px;
+    width: 700px;
+    float: left;
+}
+.hmenu>li{
+    display: inline-block;
+    position: relative;
+    line-height: 50px;
+    margin: 0 20px;
+}
+.hmenu>li>a:hover{
+    color: red;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+.hmenu>li>a{
+    color: black;
+}
+.hmenu>li:hover .smenu{
+    display: block;
+}
+.smenu{
+    list-style: none;
+    position: absolute;
+    left: 0px;
+    top: 48px;
+    width: 180px;
+    border-radius: 5px;
+    background-color: rgb(141, 151, 155);
+    display: none;
+}
+.smenu li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    border-top: 1px solid grey;
+    text-indent: 10px;
+    line-height: 40px;
+    border-radius: 5px;
+    z-index: 1;
+}
+.hhh{
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-top: 12px;
+    text-align: center;   
+    color: black;
+}
+ .smenu li:hover{
+    background-color: rgb(145, 168, 199);
+}
+.search{
+    width: 400px;
+    float: left;
+    height: 50px;
+    padding-top: 1px;
+    z-index: 9;
+}
+form{
+    margin-top: 20px;
+}
+.con:hover{    
+    color: red;  
+    text-decoration: none;
+}
